@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="34.123">
+    <testcase classname="Online_NureCampus_Login_Module" name="NuReCampus_Login|TC_01_User_checks_the_authenticity_of_the_credentials_received_on_registered_email_address" time="11.343">
+        <system-out>
+            <![CDATA[Given User launches the browser and hit the Login page Url..................passed
+And User enter kondal.rao@3i-infotech.com and info@1234 got on his email and click on login button.passed
+Then User lands on onboardingpage...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Online_NureCampus_Login_Module" name="NuReCampus_Login|TC_02_User_tampered_the_login_Credential_received_on_registered_email_address" time="6.256">
+        <system-out>
+            <![CDATA[Given User launches the browser and hit the Login page Url..................passed
+And User enter kondal.rao@3i-infotech.com and info@123 got on his email and click on login button.passed
+But User lands on loginpage.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Online_NureCampus_Login_Module" name="NuReCampus_Login|TC_03_User_checks_the_authenticty_using_browser_back_and_forward_actions" time="16.107">
+        <system-out>
+            <![CDATA[Given User launches the browser and hit the Login page Url..................passed
+Then User clicks browser Backward button and check the login page is redirected.passed
+Then User clicks browser Forward button and check the login page is redirected.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

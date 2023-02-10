@@ -1,0 +1,17 @@
+Run configurations for Login & Campushierarchy
+
+test -DQAURL=https://erp.campuslabs.in/qa/dashboard-login -Dcucumber.features="D:\SVN Backup\nurecampus\NureCampus_WebApp\src\test\java\com\NuReCampus\Features\NuReCampus_login.feature"
+test -DQAURL=https://erp.campuslabs.in/qa/dashboard-login -Dcucumber.features="D:\SVN Backup\nurecampus\NureCampus_WebApp\src\test\java\com\NuReCampus\Features\NuReCampus_OnBoardingModule.feature"
+test -DQAURL=https://erp.campuslabs.in/qa/dashboard-login -Dcucumber.features="D:\SVN Backup\nurecampus\NureCampus_WebApp\src\test\java\com\NuReCampus\Features\NuReCampus_OnBoardingConfiguration.feature"
+test -DQAURL=https://erp.campuslabs.in/qa/dashboard-login -Dcucumber.features="D:\SVN Backup\nurecampus\NureCampus_WebApp\src\test\java\com\NuReCampus\Features\NuReCampus_OnBoardingCampusHierarchy.feature"
+
+
+Run configurations for OnLandingPage
+
+test -DQAURL=https://erp.campuslabs.in/qa/landing -Dcucumber.features="D:\SVN Backup\nurecampus\NureCampus_WebApp\src\test\java\com\NuReCampus\Features\NuReCampus_OnLanding.feature"
+
+Run configurations for Registration page
+test -DQAURL=https://erp.campuslabs.in/qa/register -Dcucumber.features="D:\SVN Backup\nurecampus\NureCampus_WebApp\src\test\java\com\NuReCampus\Features\NuReCampus_Registration.feature"
+
+
+
